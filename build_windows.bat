@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 cd /d "%~dp0"
 echo 正在安裝套件...
 pip install -r requirements.txt pyinstaller
